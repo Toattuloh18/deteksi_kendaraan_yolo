@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: yolo-project-kz7ey
+  project: vehicle-detection-oayhk
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-project-kz7ey/vehicle-detection-oayhk/dataset/2
